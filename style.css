@@ -1,0 +1,149 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/* nav section  */
+
+.nav-container {
+    background-color: rgb(75, 75, 75);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 20px;
+}
+.nav-logo img {
+    width: 120px;
+}
+ul {
+    display: flex;
+}
+ul li {
+    list-style-type:none;
+}
+li a {
+    color: white;
+    text-decoration: none;
+    padding: 10px;
+    font-size: 18px;
+}
+
+/* banner section  */
+.banner-container {
+    height: 100vh;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-image: url("./images/background.png"),linear-gradient(45deg, rgb(5, 5, 5), #2e2e2e);
+    color: white;
+}
+.banner-logo {
+    width: 300px;
+}
+.banner-title {
+    font-size:52px ;
+}
+.banner-description {
+    font-size: 18px;
+    margin-top: 15px;
+    
+}
+.btn-primary {
+    margin-top: 20px;
+    padding: 12px 18px;
+    border: none;
+    border-radius: 5px;
+    background-color: red;
+    color: white;
+}
+/* About section  */
+.about-section {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.about-section-title {
+    font-size: 54px;
+    text-align: center;
+    padding-bottom: 20px;
+}
+.about-container {
+    display: flex;
+    justify-content: space-around;
+}
+.about-img {
+    width: 300px;
+}
+.about-info-title {
+    font-size: 24px;
+    margin-bottom: 15px;
+}
+/* service section  */
+.service-section {
+    background-image: url("./images/background.png"),linear-gradient(45deg, rgb(5, 5, 5), #2e2e2e);
+    color: white;
+    padding-bottom: 25px;
+}
+.service-title {
+    text-align: center;
+    margin-bottom:20px ;
+    padding-top: 70px;
+    font-size: 54px;
+}
+.all-boxes {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 30px;
+}
+.box {
+    width: 200px;
+    height: 280px;
+    text-align: center;
+    border-radius: 5px;
+    box-shadow: rgba(215, 211, 211, 0.56) 4px 2px 100px;
+    border: 1px solid black;
+    padding: 20px;
+}
+.box-icon{
+    width: 70px;
+}
+.box-title {
+    padding: 10px;
+}
+.box-btn {
+    color: white;
+    margin-top: 20px;
+    padding: 8px 15px;
+    background-color: #292828;
+    border: none;
+}
+/* Footer styles  */
+.footer {
+    background-color: black;
+    color: white;
+}
+.footer-container {
+    display: flex;
+    gap: 30px;
+    padding: 150px 150px;
+}
+.footer-logo {
+    width: 200px;
+    color: white;
+}
+.footer-content {
+    width: 300px;
+}
+.footer-content h3 {
+    padding-bottom: 40px;
+}
+.footer-content p {
+    line-height: 30px;
+}
+.copyright {
+    text-align: center;
+    padding: 20px;
+}
+hr {
+    width: 80%;
+    margin: auto;
+}
